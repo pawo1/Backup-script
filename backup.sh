@@ -3,7 +3,7 @@
 #Rsync backups for your VPS by Pawo
 #Requirements: zip, rsync
 
-KEEP_FOR=7 #number of days to keep backup file
+KEEP_FOR=7 #number of days to keep a backup file
 PORT=22 #port to ssh 
 
 COLOR_BLUE_LIGHT="\033[1;34m"
