@@ -1,6 +1,6 @@
 # Backup-script
 
-Simple script which uses rsync to store data from remote server
+Simple script which uses rsync to store data from a remote server
 
 ## Requirments 
 zip and rsync
