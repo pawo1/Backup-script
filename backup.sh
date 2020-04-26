@@ -35,10 +35,10 @@ case $# in
 esac
 
 shopt -s nullglob
-files=(*.zip)
+files=($2/*.zip)
 
 if (( ${#files[@]} > $KEEP_FOR )); then
-	old=$(ls *.zip -Ar | tail -1)
+	old=$(ls $2/*.zip -Ar | tail -1)
 	rm $old
 fi
 
